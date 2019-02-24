@@ -61,28 +61,28 @@ Plugin 'tpope/vim-fugitive'
 
 " PHP Support
 "Plugin 'phpvim/phpcd.vim'
-Plugin 'tobyS/pdv'
+"Plugin 'tobyS/pdv'
 
 " Erlang Support
-Plugin 'vim-erlang/vim-erlang-tags'
-Plugin 'vim-erlang/vim-erlang-runtime'
-Plugin 'vim-erlang/vim-erlang-omnicomplete'
-Plugin 'vim-erlang/vim-erlang-compiler'
+"Plugin 'vim-erlang/vim-erlang-tags'
+"Plugin 'vim-erlang/vim-erlang-runtime'
+"Plugin 'vim-erlang/vim-erlang-omnicomplete'
+"Plugin 'vim-erlang/vim-erlang-compiler'
 
 " Elixir Support 
-Plugin 'elixir-lang/vim-elixir'
-Plugin 'avdgaag/vim-phoenix'
-Plugin 'mmorearty/elixir-ctags'
-Plugin 'mattreduce/vim-mix'
-Plugin 'BjRo/vim-extest'
-Plugin 'frost/vim-eh-docs'
-Plugin 'slashmili/alchemist.vim'
-Plugin 'tpope/vim-endwise'
-Plugin 'jadercorrea/elixir_generator.vim'
-Plugin 'mhinz/vim-mix-format'
+"Plugin 'elixir-lang/vim-elixir'
+"Plugin 'avdgaag/vim-phoenix'
+"Plugin 'mmorearty/elixir-ctags'
+"Plugin 'mattreduce/vim-mix'
+"Plugin 'BjRo/vim-extest'
+"Plugin 'frost/vim-eh-docs'
+"Plugin 'slashmili/alchemist.vim'
+"Plugin 'tpope/vim-endwise'
+"Plugin 'jadercorrea/elixir_generator.vim'
+"Plugin 'mhinz/vim-mix-format'
 
 " Elm Support
-Plugin 'lambdatoast/elm.vim'
+"Plugin 'lambdatoast/elm.vim'
 
 " Theme / Interface
 Plugin 'AnsiEsc.vim'
@@ -120,7 +120,7 @@ filetype plugin indent on    " required
 set nowrap
 
 " OSX stupid backspace fix
-set backspace=indent,eol,start
+"set backspace=indent,eol,start
 
 " Show linenumbers
 set number
@@ -135,7 +135,7 @@ set expandtab
 set laststatus=2
 
 " Enable Elite mode, No ARRRROWWS!!!!
-let g:elite_mode=1
+"let g:elite_mode=1
 
 " Devicons configuration 
 let g:webdevicons_conceal_nerdtree_brackets = 1
