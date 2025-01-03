@@ -1,0 +1,78 @@
+## -- Bindings --
+keybind = global:cmd+;=toggle_quick_terminal
+
+#keybind = cmd+shift+l=new_split:right
+#keybind = cmd+shift+j=new_split:left
+#keybind = cmd+shift+i=new_split:up
+#keybind = cmd+shift+k=new_split:down
+
+#keybind = cmd+shift+l=goto_split:right
+#keybind = cmd+shift+j=goto_split:left
+#keybind = cmd+shift+i=goto_split:up
+#keybind = cmd+shift+k=goto_split:down
+
+#keybind = toggle_split_zoom
+
+
+# --- Fonts ---
+font-family = "JetBrainsMonoNL Nerd Font"
+#font-family = "Noto Color Emoji"
+font-size = 12
+
+# --- Theme and Colors ---
+theme = "Abernathy"
+#theme = "Monokai Classic"
+#background-opacity = 0.9
+#minimum-contrast = 2.0
+#cursor-opacity = 1.0
+
+# --- Window Styling ---
+#window-padding-x = 20
+#window-padding-y = 20
+#window-padding-balance = true
+#window-decoration = true
+#window-padding-color = "extend"
+
+# --- Cursor ---
+#cursor-style = "block_hollow"
+#cursor-opacity = 0.9
+#cursor-style-blink = false
+#cursor-click-to-move = true
+
+# --- Mouse ---
+#mouse-hide-while-typing = true
+#mouse-scroll-multiplier = 2
+#mouse-shift-capture = never
+
+# --- Behavior ---
+#confirm-close-surface = false
+#quit-after-last-window-closed = true
+#quit-after-last-window-closed-delay = "5s"
+#scrollback-limit = 2097152
+#copy-on-select = "clipboard"
+
+#abnormal-command-exit-runtime = 200
+#click-repeat-interval = 0
+
+# --- Clipboard ---
+#clipboard-read = "ask"
+#clipboard-write = "allow"
+#clipboard-trim-trailing-spaces = true
+#clipboard-paste-protection = true
+#clipboard-paste-bracketed-safe = true
+
+# --- Shell Integration ---
+#shell-integration = "detect"
+#shell-integration-features = "cursor, sudo, title"
+
+# --- macOS Specific ---
+#macos-titlebar-style = "hidden"
+#macos-option-as-alt = true
+#macos-window-shadow = false
+#macos-auto-secure-input = true
+#macos-secure-input-indication = true
+
+
+# --- Bleeding Edge ---
+#auto-update = "download"
+#auto-update-channel = "tip"
